@@ -1,0 +1,7 @@
+Matlab implementation of KNN
+
+Randomly select a predefined number of cases for training, validation, and testing. 
+Use the training cases and the builtin matlab function fitcknn to train the model.
+Execute the trained model on validation cases and compare predictions to truth.
+
+Currently the testing cases are not used
