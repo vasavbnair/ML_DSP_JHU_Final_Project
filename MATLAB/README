@@ -1,7 +1,9 @@
 Matlab implementation of KNN
 
-Randomly select a predefined number of cases for training, validation, and testing. 
-Use the training cases and the builtin matlab function fitcknn to train the model.
-Execute the trained model on validation cases and compare predictions to truth.
+1. Randomly select a predefined number of cases for training, validation, and testing. 
+2. Use the training cases and the builtin matlab function fitcknn to train the model.
+3. Execute the trained model on validation cases and compare predictions to truth.
 
 Currently the testing cases are not used
+
+The folder wakeWordFeatures contains an index to the selected cases and a subfolder called MFCCcoeff contains the coefficients for selected cases.
