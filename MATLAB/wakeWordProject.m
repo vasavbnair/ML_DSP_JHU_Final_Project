@@ -11,7 +11,7 @@ else
         'Yes', 'No', 'No');
     if strcmp(userChoice, 'Yes')
         %Perform Feature Extraction
-        [datasetIdx, path2Coeff] = wakeWord_FeatureExtraction(1000, 1000, 75, 75, 75, 75);
+        [datasetIdx, path2Coeff] = wakeWord_FeatureExtraction(1000, 1000, 300, 300, 300, 300);
     else
         datasetIdx = table2struct(readtable(datasetFName), 'ToScalar', true);
         path2Coeff = fullfile(scriptPath, "wakeWordFeatures", "MFCCcoeff");
