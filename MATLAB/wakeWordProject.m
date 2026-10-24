@@ -3,7 +3,7 @@ datasetFName = fullfile(scriptPath, "wakeWordFeatures", "datasetIndex.csv");
 % Only perform feature extraction if processed dataset doesn't already exist
 if ~isfile(datasetFName)
     %Perform Feature Extraction
-    [datasetIdx, path2Coeff] = wakeWord_FeatureExtraction(1000, 1000, 75, 75, 75, 75);
+    [datasetIdx, path2Coeff] = wakeWord_FeatureExtraction(1000, 1000, 300, 200, 300, 200);
 else
     userChoice = questdlg( ...
         'Processed dataset already exists. Would you like to perform feature extraction anyway?', ...
