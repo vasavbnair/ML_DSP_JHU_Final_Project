@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import soundfile as sf
 
-data_dir = r"C:\Users\vasav\OneDrive\Desktop\Personal\matlab\ML_DSP\Final_Project_Data"
+data_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
 rows = [] # rows for the dataframe
 for word in sorted(os.listdir(data_dir)):

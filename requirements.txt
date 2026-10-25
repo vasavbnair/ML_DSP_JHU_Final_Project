@@ -1,0 +1,9 @@
+numpy
+pandas
+soundfile
+scipy
+scikit-learn
+librosa
+matplotlib
+jupyter
+ipykernel

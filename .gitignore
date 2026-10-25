@@ -1,0 +1,22 @@
+# Dataset (large, download locally)
+data/
+dataset_list.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Model artifacts
+*.pt
+*.pth
+*.h5
+*.keras
+*.npy
+*.npz
+
+# OS / editor
+.DS_Store
+Thumbs.db
