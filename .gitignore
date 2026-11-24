@@ -1,0 +1,6 @@
+processed_features/
+processed_features.zip
+.ipynb_checkpoints/
+*.npz
+*.pt
+__pycache__/
