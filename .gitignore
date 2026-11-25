@@ -1,7 +1,6 @@
 # Dataset (large, download locally)
 data/
 dataset_list.csv
-processed_features/
 
 # Python
 __pycache__/
